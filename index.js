@@ -31,12 +31,12 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(n) {
-  const arr = []
+  const array = []
 
   do {
-    arr.push('I love the Beatles!')
+    array.push('I love the Beatles!')
     n++
   } while (n < 15)
 
-  return arr
+  return array
 }
