@@ -20,10 +20,10 @@ const facts = [
 ];
 
 function johnLennonFacts(facts){
-  var array = facts[]
+  var array = []
   var i = 0
   while(i <= facts.length) {
-    console.log(`${facts[i]}!!!`)
+    array.push(`${facts[i]}!!!`)
     i++;
   }
   return array
