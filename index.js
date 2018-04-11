@@ -20,9 +20,11 @@ var facts = [
 ];
 
 function johnLennonFacts(facts){
+  var array = facts
   for (var i = 0; i < facts.length; i++)
   while (i <= facts.length) {
-    facts.push(`${facts[i]} + "!!!`)
+    array.push(`${facts[i]} + "!!!`)
     }
+    return array
   }
 
