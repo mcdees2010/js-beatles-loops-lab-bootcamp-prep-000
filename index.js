@@ -21,7 +21,7 @@ const facts = [
 
 function johnLennonFacts(facts){
   var i = 0
-  while(i < facts.length) {
+  while(i <= facts.length) {
     console.log(`${facts[i]}!!!`)
   }
   i++;
